@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   #attr_accessible :description, :instructions, :title, :category_id
-  #belongs_to :category
+  #belongs_to :
 
   #attr_accessor :title,:description,:instructions
   validates :email, :presence => true
